@@ -1,0 +1,82 @@
+/* header */
+.header {
+    box-shadow: 0 2px 5px rgba(24, 25, 34, 0.815);
+    min-height: 56px;
+    transition: min-height 0.3s;
+    padding: 1em;
+}
+.header-title {
+
+    display: inline;
+    position: absolute;
+}
+.burgerIcon {
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+/* navbar */
+
+.nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(223, 221, 221);
+}
+
+.nav-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    line-height: 24px;
+    padding: 24px;
+    text-transform: uppercase;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #030303;
+    padding: 1.5em;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* burger icon */
+
+.burgerIcon {
+    display: inline-block;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}

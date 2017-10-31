@@ -8,31 +8,11 @@ body, html {
     display: flex;
     flex-wrap: wrap;
 }
-header {
-    margin: 0;
-    padding: 0;
-}
-#headerImg {
-    width: 100%;
-    height: 300px;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#headerTitle {
-    margin-left: 45%;
-    text-align: center;
-    font-weight: 300;
-    font-size: 4em;
-    margin: 0.5em 0.25em;
-    color: #161515;
-}
-#large-nav {
-    display:none;
-}
-#menu {
-    z-index: 10;
+
+
+@media screen and (max-width: 549px) {
+
+
     
 }
 
@@ -40,47 +20,8 @@ header {
 nav bar
 */
 
-@media screen and (min-width: 600px) {
-    #menu {
+@media screen and (min-width: 550px) {
+    .burgerIcon {
         display: none;
-    }
-    #large-nav {
-        display: inline;
-    }
-    .nav {
-        opacity: .8;
-        vertical-align: top;
-        background-color: black;
-        z-index: 10;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .nav-list {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .nav-item {
-        box-sizing: border-box;
-        display: inline-block;
-        width: 33%;
-        text-align: center;
-        line-height: 24px;
-        padding: 24px;
-        text-transform: uppercase;
-    }
-    
-    .nav a {
-        text-decoration: none;
-        color: #ffffff;
-        padding: 1.5em;
-    }
-    
-    .nav a:hover {
-        text-decoration: none;
-        color: #16b5c0;
     }
 }
