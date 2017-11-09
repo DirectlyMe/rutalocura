@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="build/css/style.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -13,46 +12,41 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span> 
-            </button>
-            <a class="navbar-brand" href="#">RutaLocura</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="productspage.html">Products</a></li>
-              <li><a href="#">Information</a></li> 
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">RutaLocura</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="productspage.html">Products</a></li>
+        <li><a href="#">Information</a></li> 
+      </ul>
+    </div>
+  </nav>
 
-      <div class="container-fluid">
-            <div class="row">
-                    <header class="header">
-                        <div class="headerInner">
-                            
-                            <h1 class="headerTitle">RutaLocura</h1>
-                        </div>
-                    </header>
-            </div>
+  <div class="row">
+    <header class="header">
+      <h1 class="headerTitle">RutaLocura</h1>
+    </header>
+  </div>
 
-                <main class="content">
-                  <!-- Slide show -->
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#myCarousel" data-slide-to="1"></li>
-                      <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-                  
-                    <!-- Wrapper for slides -->
+  <main class="content">
+   <!-- Slide show -->
+    <div class="carouselClass">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                       <div class="item active">
                         <img src="Images/carosel1.jpg" alt="" class="carouselImg">
@@ -77,10 +71,12 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
+                  </div>
                 <div class="content-inner">
                   <div class="slogan">
                     <h1><i>"Slogan or Something Cool to Say"</i></h1>
                   </div>
+
 
                   <div class="descriptionMain">
                     <p>This contains a description of what the site is, maybe like half a paragraph long.
@@ -95,6 +91,7 @@
 
     
     
+          
     <script src="app.js"></script>
 </body>
 </html>
