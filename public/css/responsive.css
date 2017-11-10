@@ -1,16 +1,43 @@
-@media screen and (min-width: 400px) {
+/* responsive css */
+
+@media screen and (max-width: 400px) {
     .item {
-        height: 250px;
+        height: 200px;
     }
 }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 401px) {
     .item {
-        height: 400px;
+        height: 230px;
     }
 }
+@media screen and (max-width: 600px) {
+    
+        .footer-basic-centered{
+            padding: 35px;
+        }
+    
+        .footer-basic-centered .footer-company-motto{
+            font-size: 18px;
+        }
+    
+        .footer-basic-centered .footer-company-name{
+            font-size: 12px;
+        }
+    
+        .footer-basic-centered .footer-links{
+            font-size: 14px;
+            padding: 25px 0 20px;
+        }
+    
+        .footer-basic-centered .footer-links a{
+            line-height: 1.8;
+        }
+    }
+    
 @media screen and (min-width: 800px) {
     .content {
         width: 800px;
+        padding: 2em;
         margin-left: auto;
         margin-right: auto;
     }

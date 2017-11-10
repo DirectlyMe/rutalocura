@@ -29,18 +29,25 @@ module.exports = function(grunt) {
         },
         concat: {
             css: {
-              src: ['public/css/main.css', 'public/css/responsive.css'],
+              src: ['public/css/*'],
               dest: 'public/build/css/style.css',
             },
           },
         clean: {
             contents: ['public/Images/*']
-        }
+        },
+        watch: {
+            scripts: {
+              files: ['public/css/*'],
+              tasks: ['concat'],
+            },
+          },
       })
       
 
     grunt.loadNpmTasks('grunt-responsive-images');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('default', [''])
 }
