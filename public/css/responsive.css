@@ -44,4 +44,16 @@
     .item {
         height: 500px;
     }
+    .product {
+        margin-right: 10px;
+        width: calc((100% - 30px) / 3);
+    }
+    .productImg {
+        height: auto;
+    }
+}
+@media screen and (min-width: 900px) {
+    .content {
+        width: 900px;
+    }
 }
