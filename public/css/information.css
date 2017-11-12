@@ -1,0 +1,21 @@
+.contact h2 {
+    text-align: center;
+}
+.contact {
+    background-color: white;
+}
+.info {
+    padding: 1em;
+}
+.info p {
+    text-align: left;
+}
+.info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.head {
+    text-decoration: underline;
+    font-weight: bold;
+}
