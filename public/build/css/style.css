@@ -1,8 +1,35 @@
+.indivProductImgMain {
+    width: 100%;
+    height: auto;
+}
+.inner-product {
+    background-color: rbga(white, .9);
+}
+.thumbnail {
+    /*width: 60px;*/
+    height: 60px;
+    padding: 2px;
+    width: 60px;
+}
+.mainPics {
+    list-style-type: none;
+    width: 20%;
+}
+.productPictureMain {
+    height: 300px;
+    width: 75%;
+    padding: 2px;
+    border: 1px solid black;
+}
+#mainPic {
+    width: 100%;
+    height: 290px;
+}
 .contact h2 {
     text-align: center;
 }
 .contact {
-    background-color: white;
+    background-color: rgba(white, .9);
 }
 .info {
     padding: 1em;
@@ -38,6 +65,7 @@ header {
     padding-bottom: 2em;
 }
 .headerTitle {
+    font-size: 250%;
     color: white;
     z-index: 10;
     font-weight: bold;
@@ -153,37 +181,61 @@ header {
 
 @media screen and (max-width: 400px) {
     .item {
-        height: 200px;
+        height: 250px;
     }
 }
 @media screen and (min-width: 401px) {
     .item {
-        height: 230px;
+        height: 290px;
     }
 }
+
+@media screen and (min-width: 500px) {
+    .item {
+        height: 350px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     
-        .footer-basic-centered{
-            padding: 35px;
-        }
-    
-        .footer-basic-centered .footer-company-motto{
-            font-size: 18px;
-        }
-    
-        .footer-basic-centered .footer-company-name{
-            font-size: 12px;
-        }
-    
-        .footer-basic-centered .footer-links{
-            font-size: 14px;
-            padding: 25px 0 20px;
-        }
-    
-        .footer-basic-centered .footer-links a{
-            line-height: 1.8;
-        }
+    .footer-basic-centered{
+        padding: 35px;
     }
+    
+    .footer-basic-centered .footer-company-motto{
+        font-size: 18px;
+    }
+    
+    .footer-basic-centered .footer-company-name{
+        font-size: 12px;
+    }
+    
+    .footer-basic-centered .footer-links{
+        font-size: 14px;
+        padding: 25px 0 20px;
+    }
+    
+    .footer-basic-centered .footer-links a{
+        line-height: 1.8;
+    }
+    .contact {
+        background-color: white;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .item {
+        height: 400px;
+    }
+    .product {
+        width: calc((100% - 20px) / 2);
+        margin-right: 10px;
+    }
+    .content {
+        padding: 2em 0 2em 0;
+    }
+    
+}
     
 @media screen and (min-width: 800px) {
     .content {

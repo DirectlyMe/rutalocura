@@ -1,0 +1,27 @@
+.indivProductImgMain {
+    width: 100%;
+    height: auto;
+}
+.inner-product {
+    background-color: rbga(white, .9);
+}
+.thumbnail {
+    /*width: 60px;*/
+    height: 60px;
+    padding: 2px;
+    width: 60px;
+}
+.mainPics {
+    list-style-type: none;
+    width: 20%;
+}
+.productPictureMain {
+    height: 300px;
+    width: 75%;
+    padding: 2px;
+    border: 1px solid black;
+}
+#mainPic {
+    width: 100%;
+    height: 290px;
+}
