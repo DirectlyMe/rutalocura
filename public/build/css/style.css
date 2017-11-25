@@ -45,11 +45,31 @@
 .productDescription, .addToCart {
     order: 10;
 }
+.addToCart {
+    width: 100%;
+    padding: 2em;
+}
+.itemOptions {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+#itemPrice {
+    text-align: center;
+    padding: .5em;
+    font-size: 1.5em;
+}
+.listPics li:hover {
+    filter: brightness(70%);
+}
+form {
+    text-align: center;
+}
 .contact h2 {
     text-align: center;
 }
 .contact {
-    background-color: rgba(white, .9);
+    background-color: white;
 }
 .info {
     padding: 1em;
@@ -201,18 +221,18 @@ header {
 
 @media screen and (max-width: 400px) {
     .item {
-        height: 250px;
+        height: 20rem;
     }
 }
 @media screen and (min-width: 401px) {
     .item {
-        height: 290px;
+        height: 27rem;
     }
 }
 
 @media screen and (min-width: 500px) {
     .item {
-        height: 350px;
+        height: 33rem;
     }
 }
 
@@ -237,9 +257,6 @@ header {
     
     .footer-basic-centered .footer-links a{
         line-height: 1.8;
-    }
-    .contact {
-        background-color: white;
     }
 }
 

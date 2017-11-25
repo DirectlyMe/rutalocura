@@ -45,3 +45,23 @@
 .productDescription, .addToCart {
     order: 10;
 }
+.addToCart {
+    width: 100%;
+    padding: 2em;
+}
+.itemOptions {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+#itemPrice {
+    text-align: center;
+    padding: .5em;
+    font-size: 1.5em;
+}
+.listPics li:hover {
+    filter: brightness(70%);
+}
+form {
+    text-align: center;
+}

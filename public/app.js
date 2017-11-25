@@ -7,4 +7,11 @@ $('document').ready(function() {
         $('#mainPic').attr('src', image);
     });
 
+    var price = 0;
+
+    $('')
+
+    
 });
+
+

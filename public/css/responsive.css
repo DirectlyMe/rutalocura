@@ -2,18 +2,18 @@
 
 @media screen and (max-width: 400px) {
     .item {
-        height: 250px;
+        height: 20rem;
     }
 }
 @media screen and (min-width: 401px) {
     .item {
-        height: 290px;
+        height: 27rem;
     }
 }
 
 @media screen and (min-width: 500px) {
     .item {
-        height: 350px;
+        height: 33rem;
     }
 }
 
@@ -38,9 +38,6 @@
     
     .footer-basic-centered .footer-links a{
         line-height: 1.8;
-    }
-    .contact {
-        background-color: white;
     }
 }
 
