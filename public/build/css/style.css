@@ -322,7 +322,5 @@ header {
     
 }
 @media screen and (min-width: 900px) {
-    .content {
-        width: 900px;
-    }
+    
 }
