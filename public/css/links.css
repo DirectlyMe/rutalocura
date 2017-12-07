@@ -1,0 +1,10 @@
+#linksList {
+    padding: 1em;
+}
+#linksList li {
+    padding: 1em;
+}
+#linksList a {
+    text-decoration: underline;
+    color: black;
+}

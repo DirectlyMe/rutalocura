@@ -86,6 +86,16 @@ form {
     text-decoration: underline;
     font-weight: bold;
 }
+#linksList {
+    padding: 1em;
+}
+#linksList li {
+    padding: 1em;
+}
+#linksList a {
+    text-decoration: underline;
+    color: black;
+}
 html, body {
     margin: 0;
     padding: 0;
